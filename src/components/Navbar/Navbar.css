@@ -1,0 +1,23 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 40px;
+}
+
+.navbar-left {
+  font-size: 32px;
+  color: rgb(41, 41, 41);
+}
+
+.navbar-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar-link {
+  font-size: 26px;
+  color: rgb(41, 41, 41);
+}
