@@ -1,0 +1,30 @@
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px 0px;
+  min-width: 330px;
+}
+
+.experience-badge {
+  width: 40px;
+}
+
+.box-header {
+  font-weight: 500;
+}
+
+.box-time {
+  font-size: 14px;
+  font-weight: 500;
+  color: grey;
+}
+
+.box-designation {
+  font-size: 14px;
+  font-weight: 500;
+  color: grey;
+}

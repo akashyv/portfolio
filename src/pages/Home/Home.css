@@ -1,0 +1,77 @@
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+  margin: 170px 0px;
+}
+
+.profile-picture {
+  width: 320px;
+  border-radius: 50%;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.intro-hello {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(85, 85, 85);
+}
+
+.intro-name {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(52, 52, 52);
+}
+
+.intro-prof {
+  font-size: 26px;
+  font-weight: 700;
+  color: rgb(85, 85, 85);
+}
+
+.intro-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.down-resume-btn {
+  padding: 15px 20px;
+  border: 1px solid black;
+  border-radius: 24px;
+  background-color: white;
+  font-weight: 500;
+}
+
+.contact-info-btn {
+  padding: 15px 25px;
+  border: 1px solid black;
+  border-radius: 24px;
+  background-color: black;
+  color: white;
+}
+
+.intro-links-container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.linkedin-logo {
+  width: 50px;
+  border-radius: 50px;
+}
+
+.github-logo {
+  width: 50px;
+  border-radius: 50px;
+}

@@ -1,0 +1,29 @@
+.single-skill-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  min-width: 120px;
+}
+
+.tick-logo {
+  padding-top: 2px;
+  width: 16px;
+  height: 16px;
+}
+
+.single-skill {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.skill-name {
+  font-weight: 500;
+  font-size: 16px;
+  width: 140px;
+}
+
+.skill-level {
+  color: grey;
+  font-size: 14px;
+}
