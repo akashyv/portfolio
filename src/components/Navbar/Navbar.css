@@ -1,23 +1,33 @@
 .navbar-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 30px 40px;
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
 }
 
 .navbar-left {
-  font-size: 32px;
-  color: rgb(69, 69, 69);
+  font-size: 2rem;
+  color: rgb(85, 85, 85);
+}
+
+.navbar-left:hover {
+  cursor: default;
 }
 
 .navbar-right {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  gap: 2rem;
 }
 
 .navbar-link {
-  font-size: 26px;
-  color: rgb(69, 69, 69);
+  font-size: 1.5rem;
+  color: rgb(85, 85, 85);
+}
+
+.navbar-link:hover {
+  cursor: default;
 }

@@ -1,32 +1,34 @@
 import React from "react";
-import "./Home.css";
 import ProfilePicture from "../../Pictures/profile-picture.jpeg";
-import LinkedinLogo from "../../Pictures/linkedin-logo.png";
-import Githublogo from "../../Pictures/github-logo.png";
+import LinkedinLogo from "../../Pictures/linkedin.png";
+import Githublogo from "../../Pictures/github.png";
+import "./Home.css";
 
 export default function Home() {
   return (
     <div className="home-container">
-      <img src={ProfilePicture} alt="profile-pic" className="profile-picture" />
-      <div className="intro-container">
-        <div className="intro-hello">Hello, I'm</div>
-        <div className="intro-name">Akash Yadav</div>
-        <div className="intro-prof">Software Engineer</div>
-        <div className="intro-btn-container">
-          <div>
-            <button className="down-resume-btn">Download CV</button>
-          </div>
-          <div>
-            <button className="contact-info-btn">Contact Info</button>
-          </div>
+      <div className="home-profile-pic-container">
+        <img
+          src={ProfilePicture}
+          alt="Akash Yadav"
+          className="home-profile-pic"
+        />
+      </div>
+      <div className="home-intro-container">
+        <p className="home-intro-p1">Hello, I'm</p>
+        <h1 className="home-intro-title">Akash Yadav</h1>
+        <p className="home-intro-p2">Software Engineer</p>
+        <div className="home-btn-container">
+          <button className="down-resume-btn">Download CV</button>
+          <button className="contact-info-btn">Contact Info</button>
         </div>
-        <div className="intro-links-container">
+        <div className="home-intro-links-container">
           <img
             src={LinkedinLogo}
-            alt="linkedin-logo"
-            className="linkedin-logo"
+            alt="LinkedIn"
+            className="home-linkedin-icon"
           />
-          <img src={Githublogo} alt="github-logo" className="github-logo" />
+          <img src={Githublogo} alt="GitHub" className="home-github-icon" />
         </div>
       </div>
     </div>

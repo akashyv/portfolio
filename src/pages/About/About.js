@@ -1,9 +1,9 @@
 import React from "react";
-import "./About.css";
 import ProfilePicture from "../../Pictures/profile-picture.jpeg";
 import AboutMeBox from "../../components/AboutMeBox/AboutMeBox";
 import EducationLogo from "../../Pictures/education-logo.png";
 import ExperienceBadge from "../../Pictures/experience-badge.jpeg";
+import "./About.css";
 
 export default function About() {
   return (
