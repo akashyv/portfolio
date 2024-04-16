@@ -4,10 +4,10 @@ import "./ContactMe.css";
 
 export default function ContactMe() {
   return (
-    <div className="contact-me-container">
+    <section className="contact-me-container">
       <div className="about-me-header-container">
-        <div className="about-me-header">Get In Touch</div>
-        <div className="about-me-title">Contact Me</div>
+        <p className="header">Get In Touch</p>
+        <h1 className="title">Contact Me</h1>
       </div>
       <div className="contact-me-details-container">
         <div className="email-container">
@@ -19,6 +19,6 @@ export default function ContactMe() {
           <div className="contact-detail">LinkedIn</div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

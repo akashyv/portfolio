@@ -4,10 +4,10 @@ import "./Experience.css";
 
 export default function Experience() {
   return (
-    <div className="experience-container">
+    <section className="experience-container">
       <div className="about-me-header-container">
-        <div className="about-me-header">Explore My</div>
-        <div className="about-me-title">Experience</div>
+        <p className="header">Explore My</p>
+        <h1 className="title">Experience</h1>
       </div>
       <div className="experience-skills-container">
         <div className="experience-tech-stack">
@@ -39,6 +39,6 @@ export default function Experience() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

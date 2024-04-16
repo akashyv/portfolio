@@ -6,7 +6,7 @@ import "./Home.css";
 
 export default function Home() {
   return (
-    <div className="home-container">
+    <section className="home-container">
       <div className="home-profile-pic-container">
         <img
           src={ProfilePicture}
@@ -23,14 +23,10 @@ export default function Home() {
           <button className="contact-info-btn">Contact Info</button>
         </div>
         <div className="home-intro-links-container">
-          <img
-            src={LinkedinLogo}
-            alt="LinkedIn"
-            className="home-linkedin-icon"
-          />
-          <img src={Githublogo} alt="GitHub" className="home-github-icon" />
+          <img src={LinkedinLogo} alt="LinkedIn" className="icon" />
+          <img src={Githublogo} alt="GitHub" className="icon" />
         </div>
       </div>
-    </div>
+    </section>
   );
 }

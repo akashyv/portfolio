@@ -3,11 +3,11 @@ import "./AboutMeBox.css";
 
 export default function AboutMeBox(props) {
   return (
-    <div className="box-container">
-      <img src={props.logo} alt="exp-badge" className="experience-badge" />
-      <div className="box-header">{props.header}</div>
-      <div className="box-time">{props.highlightOne}</div>
-      <div className="box-designation">{props.highlightTwo}</div>
+    <div className="about-me-card">
+      <img src={props.logo} alt="Experience Badge" className="icon" />
+      <h3 className="card-header">{props.header}</h3>
+      <p className="card-time">{props.highlightOne}</p>
+      <p className="card-designation">{props.highlightTwo}</p>
     </div>
   );
 }
