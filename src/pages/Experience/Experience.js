@@ -1,17 +1,16 @@
 import React from "react";
 import TechAndSkills from "./TechAndSkills/TechAndSkills";
+import Arrow from "../../Pictures/arrow.png";
 import "./Experience.css";
 
 export default function Experience() {
   return (
     <section className="experience-container">
-      <div className="about-me-header-container">
-        <p className="header">Explore My</p>
-        <h1 className="title">Experience</h1>
-      </div>
+      <p className="header">Explore My</p>
+      <h1 className="title">Experience</h1>
       <div className="experience-skills-container">
-        <div className="experience-tech-stack">
-          <div className="tech-stack-heading">Technology Stack</div>
+        <div className="experience-tech-skills">
+          <h2 className="experience-sub-title">Technology Stack</h2>
           <div className="skill-container">
             <TechAndSkills name="ReactJs" level="Experienced" />
             <TechAndSkills name="C++" level="Experienced" />
@@ -25,8 +24,8 @@ export default function Experience() {
             <TechAndSkills name="Redux" level="Intermediate" />
           </div>
         </div>
-        <div className="experience-skills">
-          <div className="skills-heading">Skills</div>
+        <div className="experience-tech-skills">
+          <h2 className="experience-sub-title">Skills</h2>
           <div className="skill-container">
             <TechAndSkills name="Frontend Development" level="Experienced" />
             <TechAndSkills name="Git" level="Intermediate" />
@@ -36,9 +35,11 @@ export default function Experience() {
               name="Technical Product Support"
               level="Experienced"
             />
+            <TechAndSkills name="Comms." level="Professional" />
           </div>
         </div>
       </div>
+      <img src={Arrow} alt="Arrow Icon" className="icon arrow" />
     </section>
   );
 }

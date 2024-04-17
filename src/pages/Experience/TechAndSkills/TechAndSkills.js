@@ -1,14 +1,14 @@
 import React from "react";
-import TickLogo from "../../../Pictures/tick.jpeg";
+import TickLogo from "../../../Pictures/checkmark.png";
 import "./TechAndSkills.css";
 
 export default function TechAndSkills(props) {
   return (
     <div className="single-skill-container">
-      <img src={TickLogo} alt="tick-logo" className="tick-logo" />
-      <div className="single-skill">
-        <div className="skill-name">{props.name}</div>
-        <div className="skill-level">{props.level}</div>
+      <img src={TickLogo} alt="Check Mark" className="icon" />
+      <div>
+        <h3 className="skill-name">{props.name}</h3>
+        <p className="skill-level">{props.level}</p>
       </div>
     </div>
   );
