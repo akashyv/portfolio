@@ -1,10 +1,19 @@
 import React from "react";
-import ProfilePicture from "../../Pictures/profile-picture.jpeg";
-import LinkedinLogo from "../../Pictures/linkedin.png";
-import Githublogo from "../../Pictures/github.png";
+import ProfilePicture from "../../Assets/profile-picture-1.jpg";
+import LinkedinLogo from "../../Assets/linkedin.png";
+import Githublogo from "../../Assets/github.png";
+import ResumePDF from "../../Assets/Akash-Yadav-Resume.pdf";
 import "./Home.css";
 
 export default function Home() {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = ResumePDF;
+    link.setAttribute("download", "Akash Yadav's Resume.pdf");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <section className="home-container">
       <div className="home-profile-pic-container">
@@ -19,12 +28,28 @@ export default function Home() {
         <h1 className="home-intro-title">Akash Yadav</h1>
         <p className="home-intro-p2">Software Engineer</p>
         <div className="home-btn-container">
-          <button className="down-resume-btn">Download CV</button>
-          <button className="contact-info-btn">Contact Info</button>
+          <button className="down-resume-btn" onClick={handleDownload}>
+            Download CV
+          </button>
+          <a href="#contact">
+            <button className="contact-info-btn">Contact Info</button>
+          </a>
         </div>
         <div className="home-intro-links-container">
-          <img src={LinkedinLogo} alt="LinkedIn" className="icon" />
-          <img src={Githublogo} alt="GitHub" className="icon" />
+          <a
+            href="https://www.linkedin.com/in/akash-yadav-409459178/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={LinkedinLogo} alt="LinkedIn" className="icon" />
+          </a>
+          <a
+            href="https://github.com/akashyv"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Githublogo} alt="GitHub" className="icon" />
+          </a>
         </div>
       </div>
     </section>

@@ -4,6 +4,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 section {
   margin: 0 10rem;
   padding-top: 4vh;
@@ -16,6 +20,13 @@ a {
   color: black;
   text-decoration: none;
   text-decoration-color: white;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
 }
 
 p {

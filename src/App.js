@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Experience from "./pages/Experience/Experience";
 import ContactMe from "./pages/ContactMe/ContactMe";
+import Footer from "./pages/Footer/Footer";
 import "./App.css";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Experience />
       <ContactMe />
+      <Footer />
     </div>
   );
 }

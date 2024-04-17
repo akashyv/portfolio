@@ -1,11 +1,11 @@
 import React from "react";
 import TechAndSkills from "./TechAndSkills/TechAndSkills";
-import Arrow from "../../Pictures/arrow.png";
+import Arrow from "../../Assets/arrow.png";
 import "./Experience.css";
 
 export default function Experience() {
   return (
-    <section className="experience-container">
+    <section id="experience" className="experience-container">
       <p className="header">Explore My</p>
       <h1 className="title">Experience</h1>
       <div className="experience-skills-container">
@@ -39,7 +39,9 @@ export default function Experience() {
           </div>
         </div>
       </div>
-      <img src={Arrow} alt="Arrow Icon" className="icon arrow" />
+      <a href="#contact">
+        <img src={Arrow} alt="Arrow Icon" className="icon arrow" />
+      </a>
     </section>
   );
 }

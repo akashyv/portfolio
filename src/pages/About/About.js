@@ -1,14 +1,14 @@
 import React from "react";
-import ProfilePicture from "../../Pictures/profile-picture.jpeg";
 import AboutMeBox from "../../components/AboutMeBox/AboutMeBox";
-import EducationLogo from "../../Pictures/education.png";
-import ExperienceBadge from "../../Pictures/experience.png";
-import Arrow from "../../Pictures/arrow.png";
+import ProfilePicture from "../../Assets/profile-picture-2-modified.jpeg";
+import EducationLogo from "../../Assets/education.png";
+import ExperienceBadge from "../../Assets/experience.png";
+import Arrow from "../../Assets/arrow.png";
 import "./About.css";
 
 export default function About() {
   return (
-    <section className="about-me-container">
+    <section id="about" className="about-me-container">
       <p className="header">Get To Know More</p>
       <h1 className="title">About Me</h1>
       <div className="about-me-content-container">
@@ -43,7 +43,9 @@ export default function About() {
           </p>
         </div>
       </div>
-      <img src={Arrow} alt="Arrow Icon" className="icon arrow" />
+      <a href="#experience">
+        <img src={Arrow} alt="Arrow Icon" className="icon arrow" />
+      </a>
     </section>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import TickLogo from "../../../Pictures/checkmark.png";
+import TickLogo from "../../../Assets/checkmark.png";
 import "./TechAndSkills.css";
 
 export default function TechAndSkills(props) {

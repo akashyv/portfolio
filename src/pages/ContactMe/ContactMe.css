@@ -1,5 +1,8 @@
 .contact-me-container {
-  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
 }
 
 .contact-me-details-container {
@@ -12,9 +15,10 @@
   background: (250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
+  width: fit-content;
 }
 
-.email-container {
+.contact-info-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -25,6 +29,11 @@
 
 .email-icon {
   height: 2.5rem;
+  cursor: default;
+}
+
+.linkedin-icon {
+  cursor: default;
 }
 
 .contact-detail {
