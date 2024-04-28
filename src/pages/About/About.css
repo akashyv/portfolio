@@ -1,5 +1,6 @@
 .about-me-container {
   position: relative;
+  height: 96vh;
 }
 
 .header {
@@ -53,4 +54,60 @@
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
+}
+
+@media (max-width: 1200px) {
+  .about-me-container {
+    display: block;
+    height: fit-content;
+    margin-bottom: 6rem;
+  }
+
+  .about-me-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    height: 80%;
+  }
+
+  .about-me-pic-container {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    /* height: 46vw; */
+    margin: 0 auto;
+  }
+
+  .about-me-pic {
+    border-radius: 2rem;
+    overflow: clip;
+    width: auto;
+    height: auto;
+    max-width: 275px;
+    max-height: 275px;
+  }
+
+  .arrow {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-me-highlight-boxes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .about-me-pic {
+    width: 80%;
+    border-radius: 50%;
+  }
 }

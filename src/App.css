@@ -16,6 +16,16 @@ section {
   min-height: fit-content;
 }
 
+@media (max-width: 1200px) {
+  section {
+    margin: 0 5%;
+    padding-top: 4vh;
+    height: 96vh;
+    box-sizing: border-box;
+    min-height: fit-content;
+  }
+}
+
 a {
   color: black;
   text-decoration: none;

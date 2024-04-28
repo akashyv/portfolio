@@ -14,6 +14,7 @@ export default function Home() {
     link.click();
     document.body.removeChild(link);
   };
+
   return (
     <section className="home-container">
       <div className="home-profile-pic-container">
@@ -28,12 +29,16 @@ export default function Home() {
         <h1 className="home-intro-title">Akash Yadav</h1>
         <p className="home-intro-p2">Software Engineer</p>
         <div className="home-btn-container">
-          <button className="down-resume-btn" onClick={handleDownload}>
-            Download CV
-          </button>
-          <a href="#contact">
-            <button className="contact-info-btn">Contact Info</button>
-          </a>
+          <div>
+            <button className="down-resume-btn" onClick={handleDownload}>
+              Download CV
+            </button>
+          </div>
+          <div>
+            <a href="#contact">
+              <button className="contact-info-btn">Contact Info</button>
+            </a>
+          </div>
         </div>
         <div className="home-intro-links-container">
           <a
