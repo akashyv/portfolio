@@ -10,19 +10,6 @@ export default function ContactMe() {
       <h1 className="title">Contact Me</h1>
       <div className="contact-me-details-container">
         <div className="contact-info-container">
-          <img src={EmailLogo} alt="Email Icon" className="icon email-icon" />
-          <p>
-            <a
-              href="mailto:akash104g@gmail.com"
-              className="contact-detail"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              akash104g@gmail.com
-            </a>
-          </p>
-        </div>
-        <div className="contact-info-container">
           <img
             src={LinkedInLogo}
             alt="LinkedIn Icon"
@@ -36,6 +23,19 @@ export default function ContactMe() {
               rel="noopener noreferrer"
             >
               LinkedIn
+            </a>
+          </p>
+        </div>
+        <div className="contact-info-container">
+          <img src={EmailLogo} alt="Email Icon" className="icon email-icon" />
+          <p>
+            <a
+              href="mailto:akash104g@gmail.com"
+              className="contact-detail"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              akash104g@gmail.com
             </a>
           </p>
         </div>

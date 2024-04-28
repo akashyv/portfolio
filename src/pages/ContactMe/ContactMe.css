@@ -40,3 +40,22 @@
   font-size: larger;
   color: black;
 }
+
+@media (max-width: 1200px) {
+  .contact-me-container {
+    height: fit-content;
+    margin-bottom: 6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-detail {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact-me-details-container {
+    flex-direction: column;
+  }
+}

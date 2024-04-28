@@ -32,3 +32,39 @@
   justify-content: space-around;
   gap: 2rem;
 }
+
+@media (max-width: 1200px) {
+  .experience-container {
+    height: fit-content;
+    margin-bottom: 6rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .skill-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .experience-skills-container {
+    flex-direction: column;
+  }
+  .skill-container {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 450px) {
+  .skill-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

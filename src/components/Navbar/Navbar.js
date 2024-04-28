@@ -13,7 +13,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="navbar-container">
+    <div id="home" className="navbar-container">
       <div className="navbar-left">Akash Yadav</div>
       <div className="navbar-right">
         <div className="navbar-link">

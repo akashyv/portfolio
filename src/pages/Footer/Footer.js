@@ -6,13 +6,13 @@ export default function Footer() {
     <div className="footer-container">
       <div className="footer-links-container">
         <div className="navbar-link">
+          <a href="#home">Home</a>
+        </div>
+        <div className="navbar-link">
           <a href="#about">About</a>
         </div>
         <div className="navbar-link">
           <a href="#experience">Experience</a>
-        </div>
-        <div className="navbar-link">
-          <a href="#contact">Contact</a>
         </div>
       </div>
       <p className="footer-copyright">

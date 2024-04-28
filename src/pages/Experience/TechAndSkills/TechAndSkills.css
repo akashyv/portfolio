@@ -9,3 +9,25 @@
 .skill-level {
   color: rgb(53, 53, 53);
 }
+
+@media (max-width: 950px) {
+  .single-skill-container {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 520px) {
+  .single-skill-container {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 450px) {
+  .single-skill-container {
+    justify-content: flex-start;
+  }
+
+  .experience-tech-skills {
+    min-width: 150px;
+  }
+}

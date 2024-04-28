@@ -101,8 +101,8 @@
 @media (max-width: 1200px) {
   .home-container {
     display: block;
-    height: 83vh;
-    margin-bottom: 2rem;
+    /* height: 96vw; */
+    margin-bottom: 6rem;
   }
 
   .home-profile-pic-container {
@@ -137,5 +137,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+}
+
+@media (max-height: 750px) {
+  .home-container {
+    height: fit-content;
   }
 }
