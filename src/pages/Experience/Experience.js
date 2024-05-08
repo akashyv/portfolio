@@ -39,7 +39,7 @@ export default function Experience() {
           </div>
         </div>
       </div>
-      <a href="#contact">
+      <a href="#projects">
         <img src={Arrow} alt="Arrow Icon" className="icon arrow" />
       </a>
     </section>

@@ -23,6 +23,9 @@ export default function Navbar() {
           <a href="#experience">Experience</a>
         </div>
         <div className="navbar-link">
+          <a href="#projects">Projects</a>
+        </div>
+        <div className="navbar-link">
           <a href="#contact">Contact</a>
         </div>
       </div>
@@ -49,6 +52,11 @@ export default function Navbar() {
             <li>
               <a href="#experience" onClick={closeMenu}>
                 Experience
+              </a>
+            </li>
+            <li>
+              <a href="#projects" onClick={closeMenu}>
+                Projects
               </a>
             </li>
             <li>

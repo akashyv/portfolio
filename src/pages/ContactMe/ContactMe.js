@@ -17,7 +17,7 @@ export default function ContactMe() {
           />
           <p>
             <a
-              href="https://www.linkedin.com/in/akash-yadav-409459178/"
+              href="https://www.linkedin.com/in/akashyv/"
               className="contact-detail"
               target="_blank"
               rel="noopener noreferrer"

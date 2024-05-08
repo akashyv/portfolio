@@ -14,9 +14,12 @@ export default function Footer() {
         <div className="navbar-link">
           <a href="#experience">Experience</a>
         </div>
+        <div className="navbar-link">
+          <a href="#projects">Projects</a>
+        </div>
       </div>
       <p className="footer-copyright">
-        Copyright © 2024 Akash Yadav. All Rights Reserved.
+        Got a project in mind? Let’s code it together.
       </p>
     </div>
   );

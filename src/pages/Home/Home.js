@@ -42,7 +42,7 @@ export default function Home() {
         </div>
         <div className="home-intro-links-container">
           <a
-            href="https://www.linkedin.com/in/akash-yadav-409459178/"
+            href="https://www.linkedin.com/in/akashyv/"
             target="_blank"
             rel="noopener noreferrer"
           >
