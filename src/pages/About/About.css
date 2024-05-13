@@ -72,12 +72,10 @@
   }
 
   .about-me-pic-container {
-    /* display: flex; */
     justify-content: center;
     align-items: center;
     width: auto;
-    /* height: 46vw; */
-    margin: 0 auto;
+    margin: 20px auto;
   }
 
   .about-me-pic {
