@@ -20,7 +20,7 @@ export default function ModalOne(props) {
             </li>
             <li>
               Solely responsible for designing and implementing the entire
-              frontend of the application.
+              frontend of the application using <b>ReactJS</b>.
             </li>
             <li>
               Created user authentication functionality with login and signup
@@ -64,6 +64,12 @@ export default function ModalOne(props) {
               Successfully delivered a fully functional language learning
               platform with intuitive user interfaces, currently undergoing
               refinement to enhance the overall user experience.
+            </li>
+            <li>
+              Due to the sensitive nature of the project and team decision to
+              maintain privacy, a <b>GitHub link </b>is unavailable at this
+              time. However, I am available to provide a personal walkthrough
+              and discuss the project in detail upon request.
             </li>
           </ul>
           <button onClick={onClose} className="contact-info-btn">
