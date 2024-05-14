@@ -18,7 +18,7 @@ export default function Footer() {
           <a href="#projects">Projects</a>
         </div>
       </div>
-      <p className="footer-copyright">
+      <p className="footer-message">
         Got a project in mind? Let’s code it together.
       </p>
     </div>
