@@ -32,7 +32,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="projects-container">
-      <p className="header">Browse My Latest</p>
+      <p className="header">Browse My Personal</p>
       <h1 className="title">Project</h1>
       <div className="projects-list-container">
         <div className="project">
