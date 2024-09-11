@@ -24,7 +24,7 @@ export default function About() {
             <AboutMeBox
               logo={ExperienceBadge}
               header="Experience"
-              highlightOne="3+ years"
+              highlightOne="4+ years"
               highlightTwo="Software Engineer"
             />
             <AboutMeBox
