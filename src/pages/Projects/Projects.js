@@ -1,14 +1,17 @@
 import React, { useState } from "react";
 import Arrow from "../../Assets/arrow.png";
+import IQAS from "../../Assets/IQAS.png";
 import Duolingo from "../../Assets/DuolingoProject.jpeg";
 import OtherProjects from "../../Assets/Other-Projects.jpeg";
 import ModalOne from "../../components/Modals/ModalOne/ModalOne";
 import "./Projects.css";
 import ModalTwo from "../../components/Modals/ModalTwo/ModalTwo";
+import ModalThree from "../../components/Modals/ModalThree/ModalThree";
 
 export default function Projects() {
   const [isModal1Open, setIsModal1Open] = useState(false);
   const [isModal2Open, setIsModal2Open] = useState(false);
+  const [isModal3Open, setIsModal3Open] = useState(false);
 
   const openModal1 = () => {
     setIsModal1Open(true);
@@ -30,11 +33,29 @@ export default function Projects() {
     document.body.style.overflow = "";
   };
 
+  const openModal3 = () => {
+    setIsModal3Open(true);
+    document.body.style.overflow = "hidden";
+  };
+
+  const closeModal3 = () => {
+    setIsModal3Open(false);
+    document.body.style.overflow = "";
+  };
+
   return (
     <section id="projects" className="projects-container">
       <p className="header">Browse My Personal</p>
       <h1 className="title">Project</h1>
       <div className="projects-list-container">
+        <div className="project">
+          <img src={IQAS} alt="Project Cover" className="project-image-cover" />
+          <h2 className="project-title">IQAS</h2>
+          <button className="project-details-button" onClick={openModal3}>
+            Read More
+          </button>
+          <ModalThree isOpen={isModal3Open} onClose={closeModal3} />
+        </div>
         <div className="project">
           <img
             src={Duolingo}
