@@ -27,11 +27,11 @@ export default function Home() {
       <div className="home-intro-container">
         <p className="home-intro-p1">Hello, I'm</p>
         <h1 className="home-intro-title">Akash Yadav</h1>
-        <p className="home-intro-p2">Senior Software Engineer</p>
+        <p className="home-intro-p2">Senior Technical Support Engineer - L3</p>
         <div className="home-btn-container">
           <div>
             <button className="down-resume-btn" onClick={handleDownload}>
-              Download CV
+              Download Resume
             </button>
           </div>
           <div>
